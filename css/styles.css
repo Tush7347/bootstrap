@@ -1,0 +1,206 @@
+body{
+    text-align: center;
+    font-family: cursive;
+}
+
+#title{
+    /* background-color: aliceblue; */
+    color: springgreen;
+}
+
+h1,h2,h3{
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+h1{
+   
+    font-size: 3.5rem;
+    
+}
+
+h2{
+   
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: orange;
+    
+    font-style: italic;
+    font-variant: small-caps;
+    
+}
+
+h3{
+    font-size: 30;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+
+
+
+p{
+  
+    color:rgb(226, 35, 99);
+    border-radius: 4;
+}
+
+em{
+    color: mediumvioletred;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding-bottom: 4rem;
+    /* background-color: rgb(190, 213, 218); */
+}
+
+.rotatephone{
+   transform: rotate(20deg);
+   width: 20%;
+   /* margin-left: 20%; */
+   position: absolute;
+   right: 25%;
+   /* z-index: -1;  */
+   
+}
+
+.navbar-brand{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 20px;
+    font-size: 1.25rem;
+    
+}
+
+.downloadbutton{
+    margin: 5% 3% 5% 0%;
+}
+
+/* *********************** features *************** */
+
+
+.featurebox{
+    text-align: center;
+    padding: 5%;
+}
+
+
+#features{
+    position: relative;
+    /* z-index: 1;  */
+    padding : 6% 10%;
+    background-color: skyblue;
+}
+
+.features-img{
+    margin-bottom: 5%;
+}
+
+
+/* *************testimonials*********************** */
+
+
+#testimonials{
+    
+    text-align: center;
+    
+}
+
+.testimonial-image{
+    margin: 20;
+    width: 20%;
+    padding:2%;
+    border-radius: 100%;
+    float: inline-start; 
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.carousel-indicators{
+    padding:auto;
+    
+}
+
+
+/* ****************press*************** */
+
+
+#press{
+    text-align: center;
+    
+}
+
+.pressimages{
+
+    width: 15%;
+    margin: 10px 25px 50px;
+}
+
+
+/* **************pricing****************** */
+
+#pricing{
+    background-color: skyblue;
+padding: 100px;
+text-align: center;
+
+}
+
+.pricing-cards{
+    padding: 3% 2%;
+    
+}
+
+@media only screen and (max-width : 990px) {
+
+    #title{
+    text-align: center;
+    }
+
+    .rotatephone{
+        transform: rotate(0);
+        position: static;
+        width: 50%;
+    }
+}
+
+
+/* ***********************cta***************************** */
+
+
+#cta{
+
+    text-align: center;
+    padding: 7% 15%;
+    
+    
+}
+
+.cta-heading{
+    font-size: 3.5rem;
+    color: teal;
+    line-height: 1.5;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* ***************************footer*************************** */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+    background-color:rgb(162, 243, 162);
+    fon
+}
